@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section className="bg-gray-500 p-6 mb-4">
+    <section className="bg-zinc-700 p-6 mb-4">
       <div className="bg-indigo-900 border border-gray-300 p-6 max-w-[50rem] mx-auto">
         <h2 className="text-3xl font-bold mb-4 text-center text-white">
           Education
