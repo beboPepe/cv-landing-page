@@ -1,11 +1,14 @@
 import { useState } from "react";
+import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { IoIosArrowDropupCircle } from "react-icons/io";
 
 const WorkExp = () => {
+  //Array to manage visibility for each job
   const [showDetails, setShowDetails] = useState<boolean[]>([
     false,
     false,
     false,
-  ]); // Array to manage visibility for each job
+  ]);
 
   const toggleDetails = (index: number) => {
     setShowDetails(
@@ -15,25 +18,31 @@ const WorkExp = () => {
 
   return (
     <section className="bg-zinc-700 text-white p-6">
-      <div className="mx-auto">
+      <div className="max-w-[50rem] mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center">Work Experience</h1>
 
+        {/* Job Listings*/}
         <div className="flex justify-center">
           <div className="gap-4 flex flex-col">
             {/* Job 1 */}
             <div className="p-4 px-20 items-center">
               <h3 className="text-2xl text-center">Software Developer</h3>
-              <p className="text-gray-400 mb-5 text-center italic">
+              <p className="text-gray-400 text-center italic mb-2">
                 ITCH Pet (Leeds, UK) - October 2019 to October 2020
               </p>
               {/* Button */}
               <div className="flex justify-center">
-                <button
+                <div
+                  role="button"
+                  tabIndex={0}
                   onClick={() => toggleDetails(0)}
-                  className="bg-indigo-500 text-white py-2 px-4 rounded-md"
                 >
-                  {showDetails[0] ? "Hide Details" : "Show Details"}
-                </button>
+                  {showDetails[0] ? (
+                    <IoIosArrowDropupCircle size={35} />
+                  ) : (
+                    <IoIosArrowDropdownCircle size={35} />
+                  )}
+                </div>
               </div>
 
               {/* Dropdown */}
@@ -62,18 +71,23 @@ const WorkExp = () => {
             {/* Job 2 */}
             <div className="p-4 px-20">
               <h3 className="text-2xl text-center">Teacher</h3>
-              <p className="text-gray-400 mb-5 text-center italic">
+              <p className="text-gray-400 text-center italic mb-2">
                 Algorithmics (Algarve, PT) - February 2023 to Dec 2023
               </p>
 
               {/* Button */}
               <div className="flex justify-center">
-                <button
+                <div
+                  role="button"
+                  tabIndex={0}
                   onClick={() => toggleDetails(1)}
-                  className="bg-indigo-500 text-white py-2 px-4 rounded-md"
                 >
-                  {showDetails[1] ? "Hide Details" : "Show Details"}
-                </button>
+                  {showDetails[1] ? (
+                    <IoIosArrowDropupCircle size={35} />
+                  ) : (
+                    <IoIosArrowDropdownCircle size={35} />
+                  )}
+                </div>
               </div>
 
               {/* Dropdown */}
@@ -106,18 +120,23 @@ const WorkExp = () => {
             {/* Job 3 */}
             <div className="p-4 px-20">
               <h3 className="text-2xl text-center">Delivery Rider (Bicycle)</h3>
-              <p className="text-gray-400 mb-5 text-center italic">
+              <p className="text-gray-400 text-center italic mb-2">
                 Deliveroo (Leeds,UK) - June 2015 to June 2015
               </p>
 
               {/* Button */}
               <div className="flex justify-center">
-                <button
+                <div
+                  role="button"
+                  tabIndex={0}
                   onClick={() => toggleDetails(2)}
-                  className="bg-indigo-500 text-white py-2 px-4 rounded-md"
                 >
-                  {showDetails[2] ? "Hide Details" : "Show Details"}
-                </button>
+                  {showDetails[2] ? (
+                    <IoIosArrowDropupCircle size={35} />
+                  ) : (
+                    <IoIosArrowDropdownCircle size={35} />
+                  )}
+                </div>
               </div>
 
               {/* Dropdown */}
