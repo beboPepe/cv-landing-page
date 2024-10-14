@@ -1,6 +1,10 @@
 import { useState } from "react";
-import { IoIosArrowDropdownCircle } from "react-icons/io";
-import { IoIosArrowDropupCircle } from "react-icons/io";
+import {
+  IoIosArrowDropdownCircle,
+  IoIosArrowDropupCircle,
+  IoMdArrowDropdown,
+  IoMdArrowDropup,
+} from "react-icons/io";
 
 const WorkExp = () => {
   //Array to manage visibility for each job
@@ -18,14 +22,14 @@ const WorkExp = () => {
 
   return (
     <section className="bg-zinc-700 text-white p-6">
-      <div className="max-w-[50rem] mx-auto">
+      <div className="max-w-[40rem] mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center">Work Experience</h1>
 
         {/* Job Listings*/}
         <div className="flex justify-center">
           <div className="gap-4 flex flex-col">
             {/* Job 1 */}
-            <div className="p-4 px-20 items-center">
+            <div className="p-4 px-10 items-center relative border-2">
               <h3 className="text-2xl text-center">Software Developer</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 ITCH Pet (Leeds, UK) - October 2019 to October 2020
@@ -36,6 +40,7 @@ const WorkExp = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(0)}
+                  className="absolute bottom-[-26px] flex justify-center text-pink-500"
                 >
                   {showDetails[0] ? (
                     <IoIosArrowDropupCircle size={35} />

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import WorkExp from "./WorkExp";
 import Education from "./Education";
-import Sidebar from "./Sidebar";
+import Skills from "./Skills";
 import { FaBriefcase } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
 import { GiSkills } from "react-icons/gi";
@@ -18,7 +18,7 @@ const Component2 = () => (
 );
 const Component3 = () => (
   <div>
-    <Sidebar />
+    <Skills />
   </div>
 );
 

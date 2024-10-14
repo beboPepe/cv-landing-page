@@ -5,7 +5,7 @@ const Introduction = () => {
   return (
     <section className="flex justify-center items-center p-8 text-pink-500 min-h-[700px]">
       <div className="max-w-4xl w-full flex flex-col lg:flex-row justify-center items-center lg:items-center">
-        {/* Left side: Card with Picture, Name, Job Title, and Links */}
+        {/*Card*/}
         <div className="bg-zinc-300 shadow-lg rounded-lg p-8 flex flex-col justify-between items-center w-96 max-w-full lg:w-1/2 mb-8 lg:mb-0">
           <img
             src={pp}
@@ -23,7 +23,7 @@ const Introduction = () => {
           </div>
         </div>
 
-        {/* Right side: Text content */}
+        {/*Text content*/}
         <div className="lg:w-1/2 lg:ml-12 text-center lg:text-left">
           <h2 className="text-2xl font-bold mb-4">
             Hello, here's who I am & what I do
