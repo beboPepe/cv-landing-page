@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-  IoIosArrowDropdownCircle,
-  IoIosArrowDropupCircle,
-  IoMdArrowDropdown,
-  IoMdArrowDropup,
-} from "react-icons/io";
+import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
 
 const WorkExp = () => {
   //Array to manage visibility for each job
@@ -27,9 +22,9 @@ const WorkExp = () => {
 
         {/* Job Listings*/}
         <div className="flex justify-center">
-          <div className="gap-4 flex flex-col">
+          <div className="gap-8 flex flex-col">
             {/* Job 1 */}
-            <div className="p-4 px-10 items-center relative border-2">
+            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Software Developer</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 ITCH Pet (Leeds, UK) - October 2019 to October 2020
@@ -40,12 +35,12 @@ const WorkExp = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(0)}
-                  className="absolute bottom-[-26px] flex justify-center text-pink-500"
+                  className="absolute bottom-[-24px] flex justify-center text-pink-500"
                 >
                   {showDetails[0] ? (
-                    <IoIosArrowDropupCircle size={35} />
+                    <IoMdArrowDropupCircle size={35} />
                   ) : (
-                    <IoIosArrowDropdownCircle size={35} />
+                    <IoMdArrowDropdownCircle size={35} />
                   )}
                 </div>
               </div>
@@ -74,7 +69,7 @@ const WorkExp = () => {
             </div>
 
             {/* Job 2 */}
-            <div className="p-4 px-20">
+            <div className="p-4 px-20 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Teacher</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Algorithmics (Algarve, PT) - February 2023 to Dec 2023
@@ -86,11 +81,12 @@ const WorkExp = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(1)}
+                  className="absolute bottom-[-24px] flex justify-center text-pink-500"
                 >
                   {showDetails[1] ? (
-                    <IoIosArrowDropupCircle size={35} />
+                    <IoMdArrowDropupCircle size={35} />
                   ) : (
-                    <IoIosArrowDropdownCircle size={35} />
+                    <IoMdArrowDropdownCircle size={35} />
                   )}
                 </div>
               </div>
@@ -123,7 +119,7 @@ const WorkExp = () => {
             </div>
 
             {/* Job 3 */}
-            <div className="p-4 px-20">
+            <div className="p-4 px-20 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Delivery Rider (Bicycle)</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Deliveroo (Leeds,UK) - June 2015 to June 2015
@@ -135,11 +131,12 @@ const WorkExp = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(2)}
+                  className="absolute bottom-[-24px] flex justify-center text-pink-500"
                 >
                   {showDetails[2] ? (
-                    <IoIosArrowDropupCircle size={35} />
+                    <IoMdArrowDropupCircle size={35} />
                   ) : (
-                    <IoIosArrowDropdownCircle size={35} />
+                    <IoMdArrowDropdownCircle size={35} />
                   )}
                 </div>
               </div>

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { IoIosArrowDropdownCircle } from "react-icons/io";
-import { IoIosArrowDropupCircle } from "react-icons/io";
+import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
 
 const Education = () => {
   //Array to manage visibility for each item
@@ -12,21 +11,19 @@ const Education = () => {
     );
   };
   return (
-    <section className="bg-zinc-700 text-white p-6 mb-4">
-      <div className="max-w-[50rem] mx-auto">
-        <h1 className="text-4xl font-bold mb-4 text-center text-white">
-          Education
-        </h1>
+    <section className="bg-zinc-700 text-white p-6">
+      <div className="max-w-[40rem] mx-auto">
+        <h1 className="text-4xl font-bold mb-8 text-center">Education</h1>
 
-        {/* Education Listings*/}
-        <div className="flex justify-center gap-4">
-          <div className="gap-4 flex flex-col">
-            {/*Item 1*/}
-            <div className="m-6 px-20">
-              <h3 className="text-xl font-semibold text-gray-400 text-center">
+        {/* Education Listings */}
+        <div className="flex justify-center">
+          <div className="gap-8 flex flex-col">
+            {/* Education 1 */}
+            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
+              <h3 className="text-2xl text-center">
                 Bachelor of Science in Computer Science
               </h3>
-              <p className="text-gray-400 text-center italic mb-5">
+              <p className="text-gray-400 text-center italic mb-2">
                 Leeds Beckett University - 2014 to 2019
               </p>
               {/* Dropdown Button */}
@@ -35,15 +32,17 @@ const Education = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(0)}
+                  className="absolute bottom-[-24px] flex justify-center text-pink-500"
                 >
                   {showDetails[0] ? (
-                    <IoIosArrowDropupCircle size={35} />
+                    <IoMdArrowDropupCircle size={35} />
                   ) : (
-                    <IoIosArrowDropdownCircle size={35} />
+                    <IoMdArrowDropdownCircle size={35} />
                   )}
                 </div>
               </div>
 
+              {/* Dropdown Content */}
               <div
                 className={`transition-all duration-300 ease-in-out overflow-hidden ${
                   showDetails[0] ? "max-h-96" : "max-h-0"
@@ -71,12 +70,13 @@ const Education = () => {
                 </ul>
               </div>
             </div>
-            {/*Item 1*/}
-            <div className="m-6 px-20">
-              <h3 className="text-xl font-semibold text-gray-400 text-center">
+
+            {/* Education 2 */}
+            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
+              <h3 className="text-2xl text-center">
                 International Baccalaureate Diploma
               </h3>
-              <p className="text-gray-400 text-center italic mb-5">
+              <p className="text-gray-400 text-center italic mb-2">
                 Universal American School - Graduated 2012
               </p>
               {/* Dropdown Button */}
@@ -85,15 +85,17 @@ const Education = () => {
                   role="button"
                   tabIndex={0}
                   onClick={() => toggleDetails(1)}
+                  className="absolute bottom-[-24px] flex justify-center text-pink-500"
                 >
                   {showDetails[1] ? (
-                    <IoIosArrowDropupCircle size={35} />
+                    <IoMdArrowDropupCircle size={35} />
                   ) : (
-                    <IoIosArrowDropdownCircle size={35} />
+                    <IoMdArrowDropdownCircle size={35} />
                   )}
                 </div>
               </div>
 
+              {/* Dropdown Content */}
               <div
                 className={`transition-all duration-300 ease-in-out overflow-hidden ${
                   showDetails[1] ? "max-h-96" : "max-h-0"
