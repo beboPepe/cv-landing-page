@@ -20,9 +20,7 @@ const Education = () => {
           <div className="gap-8 flex flex-col">
             {/* Education 1 */}
             <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
-              <h3 className="text-2xl text-center">
-                Bachelor of Science in Computer Science
-              </h3>
+              <h3 className="text-2xl text-center">BSc Computer Science</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Leeds Beckett University - 2014 to 2019
               </p>

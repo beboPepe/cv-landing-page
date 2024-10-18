@@ -34,7 +34,7 @@ const ContentSelection = () => {
           className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
             selectedComponent === 1
               ? "bg-zinc-300 text-pink-500"
-              : "bg-indigo-900 text-white"
+              : "bg-purple-800 text-white"
           } transition duration-200 ease-in-out transform hover:scale-110`}
         >
           <FaBriefcase size={30} />
@@ -45,7 +45,7 @@ const ContentSelection = () => {
           className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
             selectedComponent === 2
               ? "bg-zinc-300 text-pink-500"
-              : "bg-indigo-900 text-white"
+              : "bg-purple-800 text-white"
           } transition duration-200 ease-in-out transform hover:scale-110`}
         >
           <IoSchool size={30} />
@@ -56,7 +56,7 @@ const ContentSelection = () => {
           className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
             selectedComponent === 3
               ? "bg-zinc-300 text-pink-500"
-              : "bg-indigo-900 text-white"
+              : "bg-purple-800 text-white"
           } transition duration-200 ease-in-out transform hover:scale-110`}
         >
           <GiSkills size={30} />
