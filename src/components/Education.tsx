@@ -19,7 +19,7 @@ const Education = () => {
         <div className="flex justify-center">
           <div className="gap-8 flex flex-col">
             {/* Education 1 */}
-            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
+            <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">BSc Computer Science</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Leeds Beckett University - 2014 to 2019
@@ -70,7 +70,7 @@ const Education = () => {
             </div>
 
             {/* Education 2 */}
-            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
+            <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">
                 International Baccalaureate Diploma
               </h3>

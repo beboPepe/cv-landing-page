@@ -26,7 +26,7 @@ const WorkExp = () => {
         <div className="flex justify-center">
           <div className="gap-8 flex flex-col">
             {/* Job 1 */}
-            <div className="p-4 px-10 items-center relative border-2 rounded-3xl">
+            <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Software Developer</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 ITCH Pet (Leeds, UK) - October 2019 to October 2020
@@ -71,7 +71,7 @@ const WorkExp = () => {
             </div>
 
             {/* Job 2 */}
-            <div className="p-4 px-20 items-center relative border-2 rounded-3xl">
+            <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Teacher</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Algorithmics (Algarve, PT) - February 2023 to Dec 2023
@@ -121,7 +121,7 @@ const WorkExp = () => {
             </div>
 
             {/* Job 3 */}
-            <div className="p-4 px-20 items-center relative border-2 rounded-3xl">
+            <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Delivery Rider (Bicycle)</h3>
               <p className="text-gray-400 text-center italic mb-2">
                 Deliveroo (Leeds,UK) - June 2015 to June 2015
