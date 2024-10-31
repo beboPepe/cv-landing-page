@@ -52,9 +52,9 @@ const Introduction = () => {
             Hello, here's who I am & what I do
           </h2>
           <p className="text-lg text-white max-w-96 lg:max-w-none lg:text-left">
-            I am passionate about building scalable web applications and always
-            eager to learn new technologies. I’m currently focused on creating
-            sleek user interfaces with React and Tailwind CSS.
+            I’m a lifelong learner with a drive to build and expand my skills. I
+            love exploring the possibilities of technology and am currently
+            focused on honing my web development abilities with React.
           </p>
         </div>
       </div>
