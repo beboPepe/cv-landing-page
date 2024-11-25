@@ -26,7 +26,7 @@ const ContentSelection = () => {
   const [selectedComponent, setSelectedComponent] = useState(1);
 
   return (
-    <div className="bg-zinc-700 sm:p-8">
+    <div className="bg-zinc-700 py-6 sm:p-8">
       {/* Button Section */}
       <div className="flex justify-center space-x-4 mb-4">
         <button
