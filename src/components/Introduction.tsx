@@ -1,5 +1,5 @@
-import pp from "../assets/grasses.jpg";
-import CV from "../assets/PedroCV2024.pdf";
+const pp = "/pedroPic.jpg";
+const CV = "/PedroCV2024.pdf";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Introduction = () => {

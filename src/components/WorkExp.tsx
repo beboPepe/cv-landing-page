@@ -16,7 +16,7 @@ const WorkExp = () => {
   };
 
   return (
-    <section className="bg-zinc-700 text-white p-6">
+    <section className="bg-zinc-700 text-white p-2 sm:p-6">
       <div className="max-w-[40rem] mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center ">
           Work Experience

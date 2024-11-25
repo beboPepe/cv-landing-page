@@ -22,7 +22,7 @@ import { FaGamepad } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <section className="bg-zinc-700 text-white">
+    <section className="bg-zinc-700 text-white p-2 sm:p-6">
       <div className="max-w-[40rem] mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center">Skills</h1>
 

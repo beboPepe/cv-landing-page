@@ -1,4 +1,4 @@
-import CV from "../assets/PedroCV2024.pdf";
+const CV = "/PedroCV2024.pdf";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 function Footer() {

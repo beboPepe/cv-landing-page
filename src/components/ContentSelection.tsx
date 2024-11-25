@@ -26,12 +26,12 @@ const ContentSelection = () => {
   const [selectedComponent, setSelectedComponent] = useState(1);
 
   return (
-    <div className="bg-zinc-700 p-8">
+    <div className="bg-zinc-700 sm:p-8">
       {/* Button Section */}
       <div className="flex justify-center space-x-4 mb-4">
         <button
           onClick={() => setSelectedComponent(1)}
-          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
+          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-20 sm:h-28 w-28 ${
             selectedComponent === 1
               ? "bg-zinc-300 text-pink-500"
               : "bg-purple-800 text-white"
@@ -42,7 +42,7 @@ const ContentSelection = () => {
         </button>
         <button
           onClick={() => setSelectedComponent(2)}
-          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
+          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-20 sm:h-28 w-28 ${
             selectedComponent === 2
               ? "bg-zinc-300 text-pink-500"
               : "bg-purple-800 text-white"
@@ -53,7 +53,7 @@ const ContentSelection = () => {
         </button>
         <button
           onClick={() => setSelectedComponent(3)}
-          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-28 w-28 ${
+          className={`flex flex-col items-center justify-center py-2 px-4 rounded-full h-20 sm:h-28 w-28 ${
             selectedComponent === 3
               ? "bg-zinc-300 text-pink-500"
               : "bg-purple-800 text-white"
