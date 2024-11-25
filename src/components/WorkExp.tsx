@@ -53,7 +53,7 @@ const WorkExp = () => {
                   showDetails[0] ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <ul className="list-disc text-gray-300 mt-2 pl-4">
+                <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
                     Built and maintained web pages using .NET MVC, sharpening
                     both backend and frontend development skills.
@@ -99,7 +99,7 @@ const WorkExp = () => {
                   showDetails[1] ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <ul className="list-disc text-gray-300 mt-2 pl-4">
+                <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
                     Developed a strong foundation in recognizing and responding
                     to students’ individual needs and learning styles.
@@ -149,7 +149,7 @@ const WorkExp = () => {
                   showDetails[2] ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <ul className="list-disc text-gray-300 mt-2 pl-4">
+                <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
                     Enhanced time management skills by efficiently handling
                     multiple orders and deliveries.

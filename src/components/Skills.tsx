@@ -32,7 +32,7 @@ const Skills = () => {
           <div className="px-2 pb-6 pt-4 relative border-2 rounded-3xl">
             <h3 className="text-2xl text-center">Technologies</h3>
             <div className="flex items-center justify-center mt-2">
-              <ul className="text-gray-300 grid grid-cols-2 md:grid-cols-4 gap-4">
+              <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {/* Technology List Items */}
                 <li className="flex items-center justify-center">
                   <PiFileCSharpDuotone className="mr-2" size={30} />
@@ -74,7 +74,7 @@ const Skills = () => {
           <div className="px-2 pb-6 pt-4 border-2 rounded-3xl">
             <h3 className="text-2xl text-center">Hobbies</h3>
             <div className="flex items-center justify-center mt-2">
-              <ul className="text-gray-300 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+              <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 {/* Hobby List Items */}
                 <li className="flex items-center justify-center">
                   <GiMountainClimbing className="mr-2" size={30} />
@@ -116,7 +116,7 @@ const Skills = () => {
           <div className="px-2 pb-6 pt-4 relative border-2 rounded-3xl">
             <h3 className="text-2xl text-center">Languages</h3>
             <div className="flex items-center justify-center mt-2">
-              <ul className="text-gray-300 grid grid-cols-2 md:grid-cols-2 gap-4">
+              <ul className="grid grid-cols-2 md:grid-cols-2 gap-4">
                 {/* Language List Items */}
                 <li className="flex items-center">
                   <Flag code="GB" className="mr-2 w-6 h-auto" />

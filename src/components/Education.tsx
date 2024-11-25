@@ -46,7 +46,7 @@ const Education = () => {
                   showDetails[0] ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <ul className="list-disc text-gray-300 mt-2 pl-4">
+                <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
                     Gained exposure to diverse technologies, enhancing my
                     understanding of computing's role in society.
@@ -99,7 +99,7 @@ const Education = () => {
                   showDetails[1] ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <ul className="list-disc text-gray-300 mt-2 pl-4">
+                <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
                     Attended high school in Dubai, benefiting from a unique and
                     international environment that fostered cultural
