@@ -9,6 +9,7 @@ function Footer() {
 
         <div className="flex flex-col items-center">
           <p className="mb-2">Phone: (+351) 914 122 160</p>
+          <p className="mb-2">Email: pedrobpwork@gmail.com</p>
           <p className="mb-2">Cascais, Portugal</p>
         </div>
 
