@@ -1,5 +1,5 @@
 const pp = "/pedroPic.jpg";
-const CV = "/PedroCV2024.pdf";
+const CV = "/PedroCV2025.pdf";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Introduction = () => {
@@ -38,7 +38,7 @@ const Introduction = () => {
           <div className="flex justify-center items-center">
             <a
               href={CV} // Change this to the correct path of your PDF file
-              download="My_CV.pdf" // You can customize the file name for the downloaded file
+              download="PedroPineiroCV.pdf" // You can customize the file name for the downloaded file
               className="bg-purple-800 text-white font-bold py-2 px-4 rounded hover:bg-pink-500 transition duration-300"
             >
               Download CV

@@ -4,8 +4,8 @@ import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
 const WorkExp = () => {
   //Array to manage visibility for each job
   const [showDetails, setShowDetails] = useState<boolean[]>([
-    false,
-    false,
+    true,
+    true,
     false,
   ]);
 
@@ -27,10 +27,11 @@ const WorkExp = () => {
           <div className="gap-8 flex flex-col">
             {/* Job 1 */}
             <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
-              <h3 className="text-2xl text-center">Software Developer</h3>
+              <h3 className="text-2xl text-center">Software Teacher</h3>
               <p className="text-white text-center italic mb-2">
-                ITCH Pet (Leeds, UK) - October 2019 to October 2020
+                Algorithmics (Algarve, PT) - February 2023 to Dec 2023
               </p>
+
               {/* Button */}
               <div className="flex justify-center">
                 <div
@@ -55,16 +56,20 @@ const WorkExp = () => {
               >
                 <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
-                    Built and maintained web pages using .NET MVC, sharpening
-                    both backend and frontend development skills.
+                    Developed a strong foundation in recognizing and responding
+                    to students’ individual needs and learning styles.
                   </li>
                   <li className="mb-2">
-                    Collaborated with a team of 5 developers, consistently
-                    delivering features on time.
+                    Created an engaging classroom environment that fostered
+                    student participation and enthusiasm.
                   </li>
                   <li className="mb-2">
-                    Enhanced mobile usability by implementing responsive designs
-                    with CSS and JavaScript.
+                    Enhanced communication and interpersonal skills, valuable
+                    for future career endeavors.
+                  </li>
+                  <li className="mb-2">
+                    Adapted teaching methods to cater to diverse learning
+                    styles, promoting inclusivity and understanding.
                   </li>
                 </ul>
               </div>
@@ -72,11 +77,10 @@ const WorkExp = () => {
 
             {/* Job 2 */}
             <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
-              <h3 className="text-2xl text-center">Teacher</h3>
+              <h3 className="text-2xl text-center">Software Developer</h3>
               <p className="text-white text-center italic mb-2">
-                Algorithmics (Algarve, PT) - February 2023 to Dec 2023
+                ITCH Pet (Leeds, UK) - October 2019 to October 2020
               </p>
-
               {/* Button */}
               <div className="flex justify-center">
                 <div
@@ -101,20 +105,16 @@ const WorkExp = () => {
               >
                 <ul className="list-disc mt-2 pl-4">
                   <li className="mb-2">
-                    Developed a strong foundation in recognizing and responding
-                    to students’ individual needs and learning styles.
+                    Built and maintained web pages using .NET MVC, sharpening
+                    both backend and frontend development skills.
                   </li>
                   <li className="mb-2">
-                    Created an engaging classroom environment that fostered
-                    student participation and enthusiasm.
+                    Collaborated with a team of 5 developers, consistently
+                    delivering features on time.
                   </li>
                   <li className="mb-2">
-                    Enhanced communication and interpersonal skills, valuable
-                    for future career endeavors.
-                  </li>
-                  <li className="mb-2">
-                    Adapted teaching methods to cater to diverse learning
-                    styles, promoting inclusivity and understanding.
+                    Enhanced mobile usability by implementing responsive designs
+                    with CSS and JavaScript.
                   </li>
                 </ul>
               </div>

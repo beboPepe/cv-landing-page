@@ -3,7 +3,7 @@ import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
 
 const Education = () => {
   //Array to manage visibility for each item
-  const [showDetails, setShowDetails] = useState<boolean[]>([false, false]);
+  const [showDetails, setShowDetails] = useState<boolean[]>([true, false]);
 
   const toggleDetails = (index: number) => {
     setShowDetails((prev) =>
