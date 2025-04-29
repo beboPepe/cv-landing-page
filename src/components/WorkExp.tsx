@@ -29,7 +29,7 @@ const WorkExp = () => {
             <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Software Teacher</h3>
               <p className="text-white text-center italic mb-2">
-                Algorithmics (Algarve, PT) - February 2023 to Dec 2023
+                Algorithmics (Algarve, PT) - February 2023 to January 2025
               </p>
 
               {/* Button */}
@@ -79,7 +79,7 @@ const WorkExp = () => {
             <div className="py-4 px-4 md:px-10 items-center relative border-2 rounded-3xl">
               <h3 className="text-2xl text-center">Software Developer</h3>
               <p className="text-white text-center italic mb-2">
-                ITCH Pet (Leeds, UK) - October 2019 to October 2020
+                ITCH Pet (Leeds, UK) - October 2019 to Janurary 2022
               </p>
               {/* Button */}
               <div className="flex justify-center">
